@@ -47,8 +47,14 @@ print(len(students))
 print(students[0]['Combo,Name'])
 print(students[0]['Email'][0])
 print(students[0]['Email'][1])
-
+print(students[0]['FName'])
+print(students[0]['LName'])
+print(students[0]['GL'])
+print(students[0]['HR'])
 # What is being counted?
+print(students[-1]['Combo,Name'])
+print(students[-1]['Email'][0])
+
 
 # If the output is 36, what does that tell you?
 
@@ -68,12 +74,23 @@ print(students[0]['Email'][1])
 #and printing the name and email of the students
 #we are also printing a line of underscores to separate the students
 #we are also printing a line of underscores to separate the students
-for student in students:
-    print(student['Combo,Name'])
-    print(student['Email'][0])
-    print(student['Email'][1])
-    print("_"*25)
-
+# for student in students:
+#     print(student['Combo,Name'])
+#     print(student['Email'][0])
+#     print(student['Email'][1])
+#     print(student['HR'])
+#     print(student['CPSID'])
+#     print(student['GL'])
+#     if student['GL'] >= 10:
+#         print("you can go off campus")
+#     print("_"*25)
+#     if student['LName'][0]== "R":
+#         print("your name contains r")
+#         print(student['Combo,Name'])
+#         print(student['HR'])
+#     print(" "*25)
+#     if student['LName'][0]== "L":
+#        break
 # What does the loop variable student represent on each pass?
 
 # How many times will this loop run?
